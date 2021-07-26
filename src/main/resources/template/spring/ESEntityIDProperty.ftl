@@ -1,0 +1,3 @@
+
+    @Id
+    private [=fieldType] [=fieldName];

@@ -1,0 +1,2 @@
+
+    private [=fieldType] [=fieldName];

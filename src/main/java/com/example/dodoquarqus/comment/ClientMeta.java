@@ -1,0 +1,15 @@
+package com.example.dodoquarqus.comment;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
+import lombok.Setter;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+@Getter
+@Setter
+public class ClientMeta {
+
+    @JsonProperty("node_id")
+    private String nodeId;
+}

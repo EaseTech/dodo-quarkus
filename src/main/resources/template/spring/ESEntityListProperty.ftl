@@ -1,0 +1,3 @@
+
+
+    private List<[=fieldType]> [=fieldName];
